@@ -1,0 +1,151 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sem serifa;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Roboto Condensed', sem serifa;
+}
+
+.center{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header{
+     width: 100%;
+     height: 90px;
+     background-color:  #212343;
+
+}
+
+.header img{
+    width: 70px; 
+    margin  : 6px;
+}
+
+.container-banner{
+    width: 100%;
+    height: 557px;
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+.form{
+    padding: 20px;
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: -15px;
+    border: 6px solid #ccc;
+    background-color: white;
+}
+
+.form h2{
+    font-weight: normal;
+    color: black;
+    font-size: 20px;
+     
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span,.form p {
+    display: inline-block;
+    width: 100%;
+    color: black; 
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.form p {
+    display: inline-block;
+    width: 100%;
+    color: black; 
+    font-size: 17px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.input-container input[type=text ]{
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid black;
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+.form input[type=submit ]{
+    color: azure;
+    font-size: 25px;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #212343;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}   
+
+.form input[type=submit]:hover{
+        background-color: royalblue;
+}
+
+.container-list{
+    padding: 35px;
+    margin-top: 40px ;
+    float: left;
+    width: 609px;
+    height: 370px; 
+    background-color: rgba(230, 233, 230, 0.7);
+}
+
+.container-list{
+    list-style-position: inside;
+
+}
+
+.container-list p{
+    color: #141414;
+    font-size: 23px;
+    margin: 15px;
+    
+}
+
+.container-list ul li{
+    color: #141414;
+    font-size: 30px;
+    margin-top: 15px;
+    
+}
+
+.container-2{
+    padding: 40px;
+    background-color: rgb(134, 134, 134);
+    text-align: center;
+}
+
+.container-2 h2{
+    font-weight: normal;
+    font-size: 27px;
+}
+
+.container-2 p{
+    width: 700px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
+    font-size: 24px;
+}
