@@ -132,7 +132,7 @@ html,body{
 }
 
 .container-2{
-    padding: 40px;
+    padding: 70px 0;
     background-color: rgb(134, 134, 134);
     text-align: center;
 }
@@ -148,4 +148,35 @@ html,body{
     display: inline-block;
     text-align: justify;
     font-size: 24px;
+}
+
+.arrow {
+    position: relative;
+    top: 89px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/arrow.png);
+    background-size: 100% 100%;
+
+}
+
+.section-1{
+    padding: 90px 0;
+}
+
+.section-1 h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section{
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
 }
