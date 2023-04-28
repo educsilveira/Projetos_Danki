@@ -17,6 +17,7 @@ html,body{
 }
 
 .header{
+     min-width: 1200px;
      width: 100%;
      height: 90px;
      background-color:  #212343;
@@ -163,6 +164,7 @@ html,body{
 }
 
 .section-1{
+    min-width: 1200px;
     padding: 90px 0;
 }
 
@@ -173,10 +175,21 @@ html,body{
 }
 
 .container-section{
+    margin-top: 40px;
     text-align: center;
 }
 
 .container-single{
     float: left;
     width: 33.333%;
+    padding: 30px;
 }
+
+
+.container-single p{
+    padding: 25px 45px;
+    text-align: justify;
+    display: inline-block;
+}
+
+
